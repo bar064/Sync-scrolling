@@ -1,0 +1,21 @@
+.app {
+    display: flex;
+    align-items: center;
+  }
+  .master,
+  .slave {
+    overflow-y: auto;
+    border: 2px solid #111;
+    margin: 20px;
+  }
+  
+  .master {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .slave {
+    width: 300px;
+    height: 400px;
+  }
+  
