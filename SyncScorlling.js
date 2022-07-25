@@ -5,9 +5,10 @@ import Text from "./Text";
 export default function App() {
 
   // const [slavePercentage, setSlavePercentage] = useState(0);
-
+  //("#slave") - for ID
+   // document.querySelectorAll(".slave") - for Classname/ ID in differnt componentS
   const handleSlaveScroll = (e) => {
-     console.log(e.target.parentNode.parentNode.querySelectorAll(".slave"));
+     console.log(e.target.parentNode.parentNode.querySelectorAll(".slave")); 
     let slave = e.target;
     let master = e.target.parentNode.querySelectorAll(".slave");
     master.forEach(function(master) {
